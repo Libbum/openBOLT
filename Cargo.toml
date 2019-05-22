@@ -1,0 +1,13 @@
+[package]
+name = "openbolt"
+version = "0.1.0"
+authors = ["Tim DuBois <tim@neophilus.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+csv = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+failure = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
